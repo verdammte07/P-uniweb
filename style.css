@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    color: maroon;
+}
+h4{
+    color: green;
+    font-size: 40px;
+}
+input{
+    background-color: maroon;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: double 5px red;
+    height: 60px;
+    width: 120px;
+}
+input:hover{
+    background-color: green;
+    border: double 5px limegreen;
+    color: black;
+    transition: 0.5s;
+}
+
+/* ejercicio 12 */
+.oculto { display: none; }
+.visible { display: inline; }

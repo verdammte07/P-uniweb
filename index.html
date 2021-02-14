@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+
+</head>
+
+
+<body>
+
+    <h1>Ejercicios tomados de la pagina de "Uniwebsidad"</h1>
+<!-- ejercicio1 -->
+    <h4>Ejercicio #1</h4>
+    <noscript>Esta página <strong>requiere</strong> el uso de JavaScript y parece que está desactivado</noscript>
+    <p>Mostrara 2 mensajes</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje1()">
+    <br><br>
+
+<!-- ejercicio2 -->
+    <h4>Ejercicio #2</h4>
+    <p>Mostrara un mensaje complejo</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje2()">
+    <br><br>
+
+<!-- ejercicio3 -->
+    <h4>Ejercicio #3</h4>
+    <p>Mostrara los 12 meses del año</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje3()">
+    <br><br>
+
+<!-- ejercicio4 -->
+    <h4>Ejercicio #4</h4>
+    <p>Mostrara el uso básico de los operadores</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje4()">
+    <br><br>
+
+<!-- ejercicio5 -->
+    <h4>Ejercicio #5</h4>
+    <p>Mostrara el uso básico de la estructura de control IF</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje5()">
+    <br><br>
+
+<!-- ejercicio6 -->
+    <h4>Ejercicio #6</h4>
+    <p>Mostrara un calculo de la letra del DNI</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje6()">
+    <br><br>
+
+<!-- ejercicio7 -->
+    <h4>Ejercicio #7</h4>
+    <p>Mostrara el factorial del valor agregado</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje7()">
+    <br><br>
+
+<!-- ejercicio8 -->
+    <h4>Ejercicio #8</h4>
+    <p>Mostrara si un numero es "par" o "impar"</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje8()">
+    <br><br>
+
+<!-- ejercicio9 -->
+    <h4>Ejercicio #9</h4>
+    <p>Mostrara un texto conformado por mayusculas y otro por mayusculas y minusculas</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje9()">
+    <br><br>
+
+<!-- ejercicio10 -->
+    <h4>Ejercicio #10</h4>
+    <p>Mostrara un texto que es palindromo y otro que no lo es</p>
+    <input type="button" value="Ver" onclick="mostrarMensaje10()">
+    <br><br>
+
+<!-- ejercicio11 -->
+    <h4>Ejercicio #11</h4>
+    <div id="informacion"></div>
+    <p>Lorem ipsum dolor sit amet, <a href="http://prueba">consectetuer adipiscing elit</a>. Sed mattis enim vitae orci. 
+        Nullam sit amet nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut, rhoncus non, mi.
+        <a href="http://prueba2">Fusce porta</a>.</p>
+
+    <p>Aenean at nisl. Maecenas egestas dapibus odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+        Proin consequat auctor diam. <a href="http://prueba">Ut bibendum blandit est</a>.
+        Aliquam nec lectus nec neque aliquet dictum. Etiam <a href="http://prueba3">consequat sem quis massa</a>.</p>
+
+    <p>Vestibulum aliquet, nulla sit amet imperdiet suscipit, nunc erat laoreet est, a <a href="http://prueba">aliquam leo odio sed sem</a>. 
+        Proin et nisi non arcu sodales hendrerit. In sem. Cras id augue eu lorem dictum interdum. Donec pretium. 
+        Proin <a href="http://prueba4">egestas</a> adipiscing ligula. Curabitur hendrerit, eros quis malesuada tristique, ipsum odio euismod tortor, 
+        a vestibulum nisl mi at odio. <a href="http://prueba5">Sed non lectus non est pellentesque</a> auctor.</p>
+    <br><br>
+
+<!-- ejercicio12 -->
+    <h4>Ejercicio #12</h4>
+    <p id="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci. Phasellus libero. Maecenas nisl arcu, 
+        consequat congue, commodo nec, commodo ultricies, turpis. <span id="adicional" class="oculto">Nullam sit amet nisl 
+        elementum elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut, rhoncus non, mi. Duis pellentesque, 
+        felis eu adipiscing ullamcorper, odio urna consequat arcu, at posuere ante quam non dolor. 
+        Praesent id metus.</span></p>
+    <a id="enlace" href="#" onclick="muestra(); return false;">Seguir leyendo</a>
+    <br><br>
+
+<!-- ejercicio13 -->
+    <h4>Ejercicio #13</h4>
+    <ul id="lista">
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Consectetuer adipiscing elit</li>
+        <li>Sed mattis enim vitae orci</li>
+        <li>Phasellus libero</li>
+        <li>Maecenas nisl arcu</li>
+    </ul>
+    <input type="button" value="Añadir" onclick="anade();">
+    <br><br>
+
+<!-- ejercicio14 -->
+    <h4>Ejercicio #14</h4>
+    <p id="contenidos_1">[1] Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci. 
+        Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. 
+    </p>
+    <a id="enlace_1" href="#" onclick="muestraOculta('1'); return false;">Ocultar contenidos</a>  
+    <br/>
+
+    <p id="contenidos_2">[2] Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci. Phasellus libero. 
+        Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. 
+    </p>
+    <a id="enlace_2" href="#" onclick="muestraOculta('2'); return false;">Ocultar contenidos</a>
+    <br/>
+
+    <p id="contenidos_3">[3] Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci. Phasellus libero. 
+        Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. 
+    </p>
+    <a id="enlace_3" href="#" onclick="muestraOculta('3'); return false;">Ocultar contenidos</a>
+    <br><br>
+
+<!-- ejercicio15 -->
+    <h4>Ejercicio #15</h4>
+    <p>Mostrara un canvio de valores al mover el</p>
+    <div id="info"></div>
+    <br><br>
+
+</body>
+
+
+<script src="scipt.js"></script>
+
+</html>
